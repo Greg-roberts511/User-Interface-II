@@ -102,9 +102,11 @@ div.photos{
     padding: 1rem;
 }
 
-.photos p{
+.photos div p{
     display: flex;
-    padding: .5rem;
+    justify-content: center;
+    padding: .2rem;
+    
 }
 
 footer{
