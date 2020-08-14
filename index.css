@@ -1,0 +1,131 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+header{
+    background-color: grey;
+}
+
+h1{
+    font-size: 3rem;
+    padding: 1%;
+}
+
+nav{
+    display: flex;
+    padding: 1%;
+    
+}
+
+a:hover{
+    color: blue;
+    background-color: black;
+}
+
+#home {
+    background-color: black; 
+    color:white; 
+}
+
+#home:hover{
+    background-color: honeydew;
+    color: grey;
+}
+
+a {
+    background-color: honeydew;
+    padding: 1%;
+}
+
+a:link{
+    text-decoration: none;
+    color:black;
+}
+
+.intro{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    /* padding: %; */
+}
+
+h2 {
+    padding: 1.2%;
+}
+
+.introtext p{
+    padding: 1.5%;
+}
+
+@media only screen and (max-width: 1070px) {
+    .introtext{
+        text-align: center;
+    }
+}
+
+.intro img{
+    width: 10rem;
+    height: auto;
+}
+
+.gallery{
+    display: flex;
+    align-items: center;
+}
+
+div.photos{
+    display: flex;
+    flex-flow : row wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.photos img{
+    padding: 1rem;
+}
+
+.photos p{
+    display: flex;
+    padding: .5rem;
+}
+
+footer{
+    display: flex;
+    background-color: burlywood;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer div a{
+    padding: .2rem;
+    border-style: solid;
+    border: 2rem black;
+}
+
+footer div p{
+    padding: 1rem;
+}
+
+footer div a:hover{
+    background-color: black;
+    color: grey;
+}
